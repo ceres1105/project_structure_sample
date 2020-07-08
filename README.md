@@ -1,3 +1,5 @@
+## structure
+
 ```
 /build
 /node_modules
@@ -8,7 +10,7 @@
     /contexts
     /screen
     /styles
-    routes.js
+    /utils
 
 
 ```
@@ -17,7 +19,7 @@
 
 ### assets
 
-    img, font, svg 파일 저장
+img, font, svg 파일 저장
 
 ### component
 
@@ -33,30 +35,30 @@
 
 ### screen/page/view
 
-    router와 1:1로 연결되는 컴포넌트.
-    component를 import 해오는 용도로만 사용
+router와 1:1로 연결되는 컴포넌트.
+component를 import 해오는 용도로만 사용
 
 ### context
 
-    - context api 저장소
+- context api 저장소
 
 ### router/ utils
 
-    - routes.js
+- routes.js
 
 ### serveice/ api
 
-    - config.js
-    - (api.js)
-    - (jwt.js)
+- config.js
+- (api.js)
+- (jwt.js)
 
 ### style
 
-    - global styles
+- global styles
 
 ### hooks
 
-    - custom hooks 있을 경우 사용
+- custom hooks 있을 경우 사용
 
 - index.js
   생성된 리액트를 public/index.js의 id가 root인 곳에 넣는 코드
