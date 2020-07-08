@@ -7,10 +7,11 @@
 /src
     /assets
     /components
-    /contexts
     /screen
+    /contexts
     /styles
     /utils
+index.js
 
 ```
 
@@ -37,7 +38,7 @@ img, font, svg 파일 저장
 router와 1:1로 연결되는 컴포넌트.
 component를 import 해오는 용도로만 사용
 
-### context
+### context/store
 
 - context api 저장소
 
